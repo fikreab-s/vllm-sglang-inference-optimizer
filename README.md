@@ -1,6 +1,9 @@
-# ⚡ vLLM & SGLang Inference Optimization
+# Inference Engine Benchmarks (vLLM / SGLang / llama.cpp)
 
-> Systematic benchmarking and optimization of LFM2.5 inference across vLLM, SGLang, llama.cpp, and ONNX Runtime — throughput, latency, and cost analysis.
+> Throughput and latency benchmarks across four inference engines for enterprise serving of fine-tuned small models.
+>
+> **Context:** When deploying fine-tuned models internally, choosing the right inference engine matters. SGLang leads on batch throughput; llama.cpp wins on simplicity for single-user internal tools.
+
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
