@@ -64,3 +64,9 @@ $$T_{\text{total}} = T_{\text{new\_prefill}} + T_{\text{decode}}, \quad T_{\text
 
 ## License
 MIT
+
+## 📸 Visual Tour
+
+![engine comparison](viz/engine_comparison.png)
+
+---
