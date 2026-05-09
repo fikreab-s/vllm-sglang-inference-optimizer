@@ -1,0 +1,34 @@
+[
+  {
+    "engine": "vllm",
+    "ttft_p50": 27.5,
+    "ttft_p99": 34.6,
+    "decode_tps_mean": 85.2,
+    "batch32_tps": 1840,
+    "vram_gb": 3.2
+  },
+  {
+    "engine": "sglang",
+    "ttft_p50": 25.4,
+    "ttft_p99": 33.7,
+    "decode_tps_mean": 93.0,
+    "batch32_tps": 2100,
+    "vram_gb": 3.4
+  },
+  {
+    "engine": "llamacpp",
+    "ttft_p50": 64.3,
+    "ttft_p99": 85.2,
+    "decode_tps_mean": 57.3,
+    "batch32_tps": 420,
+    "vram_gb": 1.2
+  },
+  {
+    "engine": "onnx_rt",
+    "ttft_p50": 31.8,
+    "ttft_p99": 43.7,
+    "decode_tps_mean": 78.0,
+    "batch32_tps": 1650,
+    "vram_gb": 2.8
+  }
+]
